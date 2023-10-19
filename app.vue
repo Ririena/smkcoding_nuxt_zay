@@ -1,8 +1,9 @@
 <template>
   <div>
-    <VitePwaManifest />
-    <NuxtWelcome />
-    <h1 class="text-2xl">HELLO WORLD</h1>
+    <VitePwaManifest/>
+    <NuxtLayout >
+    <slot/>
+<NuxtPage/>
+</NuxtLayout>
   </div>
- 
 </template>
