@@ -2,6 +2,7 @@
 import { category } from "~/composables/constants/category";
 const isShow = ref(false);
 defineEmits(["selectedCategory"]);
+// Fetch WIP
 </script>
 
 <template>
